@@ -10,7 +10,7 @@
     --navy-light: #24478F;
 
     --turquoise: #3FE0C0;
-    --teal: #0DB69F;
+    --teal: lab(66.55% -43.57 0.86);
 
     --white: #FFFFFF;
     --white-soft: rgba(255, 255, 255, 0.88);
@@ -151,11 +151,11 @@ nav {
     flex-direction: row;
     align-items: center;
     text-decoration: none;
+    gap: 8px;
 }
 
 .brand-icon {
-    width: 96px;
-    height: 96px;
+    height: 72px;
     display: block;
     flex-shrink: 0;
     padding-top: 8px;
